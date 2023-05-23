@@ -4,9 +4,12 @@ namespace CatWorx.BadgeMaker
 {
   class Program
   {
+    // Main is the Entry Point
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello, World!");
+     string greeting = "Hello";
+     greeting = greeting + "World";
+     Console.WriteLine("greeting" + greeting);
     }
   }
 }
