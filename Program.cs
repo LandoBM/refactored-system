@@ -1,58 +1,47 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CatWorx.BadgeMaker
 {
   class Program
-  {
-    // Main is the Entry Point
-    static void Main ()
+  { // Method to get the employees
+    static List<string> GetEmployees()
     {
-        // using System.Collections.Generic;
-
-
-        // Using Dictionaries
-        // Dictionary<string, int> myScoreBoard = new Dictionary<string, int>(){
-        //     { "firstInning", 10 },
-        //     { "secondInning", 20},
-        //     { "thirdInning", 30},
-        //     { "fourthInning", 40},
-        //     { "fifthInning", 50}
-        // };
-
-        // Populate the Dictionary 
-        // Console.WriteLine("----------------");
-        // Console.WriteLine("  Scoreboard");
-        // Console.WriteLine("----------------");
-        // Console.WriteLine("Inning |  Score");
-        // Console.WriteLine("   1   |    {0}", myScoreBoard["firstInning"]);
-        // Console.WriteLine("   2   |    {0}", myScoreBoard["secondInning"]);
-        // Console.WriteLine("   3   |    {0}", myScoreBoard["thirdInning"]);
-        // Console.WriteLine("   4   |    {0}", myScoreBoard["fourthInning"]);
-        // Console.WriteLine("   5   |    {0}", myScoreBoard["fifthInning"]);
-
-
-        // Arrays
-        // string[] favFoods = new string[3]{ "pizza", "doughnuts", "icecream" };
-        // string firstFood = favFoods[0];
-        // string secondFood = favFoods[1];
-        // string thirdFood = favFoods[2];
-        // Declare Array
-        // Console.WriteLine("I like {0}, {1}, and {2}", firstFood, secondFood, thirdFood);
-
-
-
-        // List 
-        List<string> employees = new List<string>() { "adam", "amy" };
-
-        employees.Add("barbara");
-        employees.Add("billy");
-
-        // Console.WriteLine("My employees include {0}, {1}, {2}, {3}", employees[0], employees[1], employees[2], employees[3]);
-        // For Loops for employee list using C#
-        for (int i = 0; i < employees.Count; i++) 
+      // I will return a List of strings
+      List<string> employees = new List<string>();
+      // Collect user values until the value is an empty string
+      while (true)
+      {
+        Console.WriteLine("Please Enter a Name: (leave empty to exit): ");
+        // Get a name from the Console and assign it to a variable
+        string input = Console.ReadLine() ?? "";
+        if (input == "") 
         {
-            Console.WriteLine(employees[i]);
+          break;
         }
+        employees.Add(input);
+      }
+      // Return Employees
+      return employees;
+    }
+
+    // Method to Print Employees Name in list
+    static void PrintEmployees(List<string> employees)
+    {
+      // Loop through the List<string>
+      for (int i = 0; i < employees.Count; i++)
+      {
+        // Print the value of the List<string> at the current index
+        Console.WriteLine(employees[i]);
+      }
+    }
+
+    static void Main()
+    {
+      // Call the GetEmployees method
+      List<string> employees = GetEmployees();
+      // Call the PrintEmployees method
+      PrintEmployees(employees);
     }
   }
 }
