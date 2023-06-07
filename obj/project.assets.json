@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/landob./gt-bootcamp/course/c-sharp/Store-Employee-Data/CatWorx.BadgeMaker.csproj",
+      "projectUniqueName": "/Users/landob./gt-bootcamp/course/c-sharp/CatWorx.BadgeMaker/CatWorx.BadgeMaker.csproj",
       "projectName": "CatWorx.BadgeMaker",
-      "projectPath": "/Users/landob./gt-bootcamp/course/c-sharp/Store-Employee-Data/CatWorx.BadgeMaker.csproj",
+      "projectPath": "/Users/landob./gt-bootcamp/course/c-sharp/CatWorx.BadgeMaker/CatWorx.BadgeMaker.csproj",
       "packagesPath": "/Users/landob./.nuget/packages/",
-      "outputPath": "/Users/landob./gt-bootcamp/course/c-sharp/Store-Employee-Data/obj/",
+      "outputPath": "/Users/landob./gt-bootcamp/course/c-sharp/CatWorx.BadgeMaker/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/landob./.nuget/NuGet/NuGet.Config"
