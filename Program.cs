@@ -34,23 +34,24 @@ namespace CatWorx.BadgeMaker
     }
 
     // Method to Print Employees Name in list
-    static void PrintEmployees(List<Employee> employees)
-    {
-      // Loop through the List<Employee>
-      for (int i = 0; i < employees.Count; i++)
-      {
-        string template = "{0,-10}\t{1,-20}\t{2}";
-        // each item in employee is now an Employee Instance
-          Console.WriteLine(String.Format(template, employees[i].GetId(), employees[i].GetFullName(), employees[i].GetPhotoUrl()));
-      }
-    }
+    // static void PrintEmployees(List<Employee> employees)
+    // {
+    //   // Loop through the List<Employee>
+    //   for (int i = 0; i < employees.Count; i++)
+    //   {
+    //     string template = "{0,-10}\t{1,-20}\t{2}";
+    //     // each item in employee is now an Employee Instance
+    //       Console.WriteLine(String.Format(template, employees[i].GetId(), employees[i].GetFullName(), employees[i].GetPhotoUrl()));
+    //   }
+    // }
 
     static void Main()
     {
       // Call the GetEmployees method
       List<Employee> employees = GetEmployees();
       // Call the PrintEmployees method
-      PrintEmployees(employees);
+      Util.PrintEmployees(employees);
+      Util.MakeCSV(employees);
     }
   }
 }
