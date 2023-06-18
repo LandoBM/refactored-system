@@ -28,3 +28,9 @@
 /Users/landob./gt-bootcamp/course/c-sharp/Store-Employee-Data/bin/Debug/net6.0/CatWorx.BadgeMaker.pdb
 /Users/landob./gt-bootcamp/course/c-sharp/Store-Employee-Data/obj/Debug/net6.0/CatWorx.BadgeMaker.genruntimeconfig.cache
 /Users/landob./gt-bootcamp/course/c-sharp/Store-Employee-Data/obj/Debug/net6.0/ref/CatWorx.BadgeMaker.dll
+/Users/landob./gt-bootcamp/course/c-sharp/CatWorx.BadgeMaker/bin/Debug/net6.0/SkiaSharp.dll
+/Users/landob./gt-bootcamp/course/c-sharp/CatWorx.BadgeMaker/bin/Debug/net6.0/runtimes/osx/native/libSkiaSharp.dylib
+/Users/landob./gt-bootcamp/course/c-sharp/CatWorx.BadgeMaker/bin/Debug/net6.0/runtimes/win-arm64/native/libSkiaSharp.dll
+/Users/landob./gt-bootcamp/course/c-sharp/CatWorx.BadgeMaker/bin/Debug/net6.0/runtimes/win-x64/native/libSkiaSharp.dll
+/Users/landob./gt-bootcamp/course/c-sharp/CatWorx.BadgeMaker/bin/Debug/net6.0/runtimes/win-x86/native/libSkiaSharp.dll
+/Users/landob./gt-bootcamp/course/c-sharp/CatWorx.BadgeMaker/obj/Debug/net6.0/CatWorx.BadgeMaker.csproj.CopyComplete

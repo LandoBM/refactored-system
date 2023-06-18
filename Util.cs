@@ -3,6 +3,7 @@ using System;
 // Package for Directory
 using System.IO;
 using System.Collections.Generic;
+using SkiaSharp;
 
 namespace CatWorx.BadgeMaker
 {
@@ -39,10 +40,14 @@ namespace CatWorx.BadgeMaker
             }
         }
     }
-
+    // public class SKImage : SkiaSharp.SKObject;
     public static void MakeBadges(List<Employee> employees)
     {
-        
+      // Create Image
+      SKImage newImage = SKImage.FromEncodedData(File.OpenRead("badge.png"));
+      // Get Canvas from image
+      SKData data = newImage.Encode();
+      data.SaveTo(File.OpenWrite("data/employeeBadge.png"));    
     }
   }
 }

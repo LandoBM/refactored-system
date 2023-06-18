@@ -48,10 +48,12 @@ namespace CatWorx.BadgeMaker
     static void Main()
     {
       // Call the GetEmployees method
-      List<Employee> employees = GetEmployees();
+      List<Employee> employees = new List<Employee>();
+      employees = GetEmployees();
       // Call the PrintEmployees method
-      Util.PrintEmployees(employees);
+      // Util.PrintEmployees(employees);
       Util.MakeCSV(employees);
+      Util.MakeBadges(employees);
     }
   }
 }
