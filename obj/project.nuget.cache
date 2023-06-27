@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HvEV2yLh8LsUiQHIN+BGXJzS5mhthHlk9/nJAaQNGggQV1KVlmq9myVzXf0MUFt9ukeXDfjsh3oiwQ5VV+xJHQ==",
+  "dgSpecHash": "rBBelXxmA8Ac2ovQr0RE918UxSpshFbR8JVBSBCA1A6SnUGii/4J6fgIu2kO4xELVjzGfb2OYcW2yzlN381KXA==",
   "success": true,
   "projectFilePath": "/Users/landob./gt-bootcamp/course/c-sharp/CatWorx.BadgeMaker/CatWorx.BadgeMaker.csproj",
   "expectedPackageFiles": [
+    "/Users/landob./.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/landob./.nuget/packages/skiasharp/2.88.0/skiasharp.2.88.0.nupkg.sha512",
     "/Users/landob./.nuget/packages/skiasharp.nativeassets.macos/2.88.0/skiasharp.nativeassets.macos.2.88.0.nupkg.sha512",
     "/Users/landob./.nuget/packages/skiasharp.nativeassets.win32/2.88.0/skiasharp.nativeassets.win32.2.88.0.nupkg.sha512",
